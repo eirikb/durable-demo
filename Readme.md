@@ -6,5 +6,5 @@ npm i
 export AzureWebJobsStorage=UseDevelopmentStorage=true
 npm start
 sleep 10s
-curl -vvv http://localhost:7071/api/Start
+curl -vvv http://localhost:7071/api/Start?webUrl=a&listUrl=b
 ```
