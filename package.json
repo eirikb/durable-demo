@@ -1,0 +1,14 @@
+{
+  "name": "durable-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "func start",
+    "postinstall": "func extensions install"
+  },
+  "author": "Eirik Brandtzæg <eirikb@eirikb.no>",
+  "license": "MIT",
+  "dependencies": {
+    "azure-functions-core-tools": "2.4.498",
+    "durable-functions": "1.1.4"
+  }
+}
